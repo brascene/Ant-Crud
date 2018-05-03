@@ -1,6 +1,33 @@
 # Ant-Crud
 Basic server CRUD app with Swift and Vapor with PostgreSQL driver
 
+#Routes
+
+The base URL = *https://cryptic-waters-45764.herokuapp.com/*
+
+### Create new ant
+/ants
+with json body e.g.
+`{
+	"age": 62,
+	"name": "alen",
+	"position": "mobile"
+}`
+
+### Update ant by Id
+PUT request, /ant/Id
+Use the same json as above
+
+### Get ant by Id
+/ant/Id
+
+### Get all ants
+/all_ants
+
+### Delete ant by Id
+DELETE request, /ant/Id
+
+
 <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/1342803/24797159/52fb0d88-1b90-11e7-85a5-359fff0496a4.png" width="320" alt="MySQL">
     <br>
